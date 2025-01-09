@@ -19,12 +19,12 @@ export default function FAQ() {
   ];
 
   return (
-    <div className="py-16 bg-gray-50 dark:bg-gray-800">
+    <div className="py-16 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-3xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-white dark:bg-gray-900 rounded-lg shadow-md">
+            <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md">
               <button
                 className="w-full px-6 py-4 text-left font-semibold flex justify-between items-center"
                 onClick={() => setActiveIndex(activeIndex === index ? null : index)}

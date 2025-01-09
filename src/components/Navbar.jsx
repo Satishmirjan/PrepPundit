@@ -54,6 +54,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Moon, Sun } from 'lucide-react';
+import { assets } from '../assets/assets';
 
 export default function Navbar() {
   // Check system preference for initial dark mode
@@ -69,7 +70,7 @@ export default function Navbar() {
     if (isDark) {
       document.documentElement.classList.add('dark');
     }
-  }, []);
+  }, [isDark]);
 
   const toggleTheme = () => {
     setIsDark(!isDark);
@@ -83,7 +84,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               {/* TODO: Replace with actual logo image */}
-              <img src="/api/placeholder/40/40" alt="PrepePundit Logo" className="h-10" />
+              <img src={assets.logo} alt="PrepePundit Logo" className="h-10" />
               <span className="text-xl font-bold text-gray-900 dark:text-white">PrepePundit AI</span>
             </Link>
             <div className="hidden md:block ml-10">
@@ -110,7 +111,7 @@ export default function Navbar() {
             </button>
             {/* TODO: Replace with actual user profile image */}
             <img
-              src="/api/placeholder/32/32"
+              src={assets.logo}
               alt="User"
               className="h-8 w-8 rounded-full hover:scale-110 transition-all duration-200 ring-2 ring-gray-200 dark:ring-gray-700"
             />

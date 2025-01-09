@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
       <MainLayout>
         <Hero />
-        <Cards />
+        {/* <Cards /> */}
         <Feedback />
         <FAQ />
       </MainLayout>
