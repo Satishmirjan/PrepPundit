@@ -5,76 +5,321 @@ const SimpleMockTest = () => {
   const testData = {
     'Data Structures': [
       {
-        q: "What is the time complexity of binary search?",
-        options: ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+        q: "What is the time complexity of inserting an element at the end of an array?",
+        options: ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+        correct: 0
+      },
+      {
+        q: "Which data structure uses FIFO?",
+        options: ["Queue", "Stack", "Linked List", "Tree"],
+        correct: 0
+      },
+      {
+        q: "What is the time complexity of searching an element in a balanced binary search tree?",
+        options: ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
+        correct: 1
+      },
+      {
+        q: "Which data structure is used for implementing recursion?",
+        options: ["Queue", "Stack", "Heap", "Graph"],
+        correct: 1
+      },
+      {
+        q: "What is the maximum number of children a node can have in a binary tree?",
+        options: ["2", "3", "4", "Any number"],
+        correct: 0
+      },
+      {
+        q: "Which data structure is most efficient for finding the shortest path in a graph?",
+        options: ["Stack", "Queue", "Priority Queue", "Hash Map"],
         correct: 2
       },
       {
-        q: "Which data structure uses LIFO?",
-        options: ["Queue", "Stack", "Array", "Tree"],
+        q: "What is the height of a balanced binary tree with n nodes?",
+        options: ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+        correct: 1
+      },
+      {
+        q: "Which data structure allows for dynamic resizing?",
+        options: ["Array", "Linked List", "Queue", "Stack"],
+        correct: 1
+      },
+      {
+        q: "What is the time complexity of deleting a node in a doubly linked list?",
+        options: ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+        correct: 0
+      },
+      {
+        q: "Which data structure is used in Depth First Search (DFS) traversal of a graph?",
+        options: ["Queue", "Stack", "Hash Map", "Array"],
         correct: 1
       }
     ],
     'Operating Systems': [
       {
-        q: "What is deadlock?",
-        options: ["CPU error", "Memory error", "Resource conflict", "System crash"],
-        correct: 2
-      },
-      {
-        q: "What is virtual memory?",
-        options: ["RAM", "ROM", "Hard disk space used as RAM", "Cache"],
-        correct: 2
-      }
-    ],
-    'Database': [
-      {
-        q: "What is a primary key?",
-        options: ["Foreign key", "Unique identifier", "Index", "Constraint"],
-        correct: 1
-      },
-      {
-        q: "What is SQL?",
-        options: ["Programming language", "Query language", "Operating system", "Database"],
-        correct: 1
-      }
-    ],
-    'System Design': [
-      {
-        q: "What is load balancing?",
-        options: ["Data backup", "Traffic distribution", "Memory management", "CPU scheduling"],
-        correct: 1
-      },
-      {
-        q: "What is caching?",
-        options: ["Data deletion", "Temporary storage", "Permanent storage", "Data transfer"],
-        correct: 1
-      }
-    ],
-    'Networks': [
-      {
-        q: "What is DNS?",
-        options: ["Email protocol", "Name resolution", "Security protocol", "File transfer"],
-        correct: 1
-      },
-      {
-        q: "What is HTTP?",
-        options: ["Security protocol", "Transfer protocol", "Database protocol", "Email protocol"],
-        correct: 1
-      }
-    ],
-    'Cloud Computing': [
-      {
-        q: "What is SaaS?",
-        options: ["Software as a Service", "System as a Service", "Security as a Service", "Storage as a Service"],
+        q: "What is a process in an operating system?",
+        options: ["Program in execution", "Static program", "Hardware component", "Memory allocation"],
         correct: 0
       },
       {
-        q: "What is cloud computing?",
-        options: ["Local storage", "Remote computing", "Database system", "Operating system"],
+        q: "What is a thread?",
+        options: ["Lightweight process", "Heavyweight process", "CPU unit", "Memory block"],
+        correct: 0
+      },
+      {
+        q: "What is a critical section?",
+        options: ["Code that accesses shared resources", "CPU scheduling algorithm", "Memory segment", "I/O process"],
+        correct: 0
+      },
+      {
+        q: "Which algorithm is used for CPU scheduling?",
+        options: ["Round Robin", "Paging", "Deadlock", "Fragmentation"],
+        correct: 0
+      },
+      {
+        q: "What is a semaphore?",
+        options: ["Memory allocation tool", "Process synchronization tool", "Scheduling algorithm", "CPU register"],
         correct: 1
+      },
+      {
+        q: "What is paging in operating systems?",
+        options: ["Memory management technique", "CPU scheduling algorithm", "I/O scheduling", "Thread management"],
+        correct: 0
+      },
+      {
+        q: "Which is a non-preemptive scheduling algorithm?",
+        options: ["First-Come-First-Serve", "Round Robin", "Shortest Remaining Time", "Priority Scheduling"],
+        correct: 0
+      },
+      {
+        q: "What is thrashing?",
+        options: ["Excessive paging", "CPU failure", "Deadlock occurrence", "Resource conflict"],
+        correct: 0
+      },
+      {
+        q: "What is a system call?",
+        options: ["Hardware interrupt", "Program request to OS", "Memory request", "I/O operation"],
+        correct: 1
+      },
+      {
+        q: "What is a real-time operating system?",
+        options: ["For time-sensitive tasks", "For batch processing", "For desktop systems", "For mobile systems"],
+        correct: 0
       }
     ]
+    ,
+    'Database':[
+      {
+        q: "What is a foreign key?",
+        options: ["Primary key", "Unique identifier", "Links two tables", "Index"],
+        correct: 2
+      },
+      {
+        q: "What is normalization in databases?",
+        options: ["Data duplication", "Eliminating redundancy", "Data encryption", "Data retrieval"],
+        correct: 1
+      },
+      {
+        q: "What is ACID in databases?",
+        options: ["Transaction properties", "Backup method", "Data storage", "Indexing technique"],
+        correct: 0
+      },
+      {
+        q: "What is a join in SQL?",
+        options: ["Combining tables", "Deleting rows", "Sorting data", "Updating rows"],
+        correct: 0
+      },
+      {
+        q: "What is indexing in databases?",
+        options: ["Improves search", "Deletes records", "Encrypts data", "Backs up data"],
+        correct: 0
+      },
+      {
+        q: "Which SQL command is used to retrieve data?",
+        options: ["INSERT", "UPDATE", "SELECT", "DELETE"],
+        correct: 2
+      },
+      {
+        q: "What is a composite key?",
+        options: ["Two or more columns as a key", "Primary key", "Foreign key", "Unique key"],
+        correct: 0
+      },
+      {
+        q: "What is a stored procedure?",
+        options: ["Precompiled SQL", "Database schema", "Backup plan", "Normalization method"],
+        correct: 0
+      },
+      {
+        q: "What is a transaction?",
+        options: ["Data backup", "Sequence of database operations", "Database connection", "Index creation"],
+        correct: 1
+      },
+      {
+        q: "What is a trigger in SQL?",
+        options: ["Event-based action", "Data backup", "Index", "Normalization method"],
+        correct: 0
+      }
+    ]
+    ,
+    'System Design': [
+      {
+        q: "What is microservices architecture?",
+        options: ["Single application", "Monolithic design", "Small, independent services", "Database design"],
+        correct: 2
+      },
+      {
+        q: "What is horizontal scaling?",
+        options: ["Adding more servers", "Adding more CPU to a server", "Adding more RAM", "Upgrading software"],
+        correct: 0
+      },
+      {
+        q: "What is a database sharding?",
+        options: ["Dividing database", "Backing up database", "Indexing", "Normalization"],
+        correct: 0
+      },
+      {
+        q: "What is fault tolerance?",
+        options: ["Error prevention", "System recovery", "System stability", "Handling failures gracefully"],
+        correct: 3
+      },
+      {
+        q: "What is a CDN?",
+        options: ["Content Delivery Network", "Caching Database Nodes", "Centralized Data Network", "Content Distribution Nodes"],
+        correct: 0
+      },
+      {
+        q: "What is a message queue?",
+        options: ["Data queue", "Buffer for asynchronous communication", "Error handling queue", "System alert mechanism"],
+        correct: 1
+      },
+      {
+        q: "What is latency?",
+        options: ["Delay in processing", "CPU speed", "Memory space", "Network bandwidth"],
+        correct: 0
+      },
+      {
+        q: "What is API rate limiting?",
+        options: ["Limiting API calls", "Increasing API speed", "Backing up API data", "Encrypting API data"],
+        correct: 0
+      },
+      {
+        q: "What is database replication?",
+        options: ["Copying data to multiple servers", "Deleting duplicate data", "Indexing data", "Backing up data"],
+        correct: 0
+      },
+      {
+        q: "What is a reverse proxy?",
+        options: ["Redirecting client requests to backend", "Backing up database", "Firewall", "Caching mechanism"],
+        correct: 0
+      }
+    ]
+    ,
+    'Networks':[
+      {
+        q: "What is TCP?",
+        options: ["Transfer protocol", "Data encryption protocol", "Routing algorithm", "Authentication protocol"],
+        correct: 0
+      },
+      {
+        q: "What is an IP address?",
+        options: ["Unique identifier for a device", "Protocol", "Data packet", "File format"],
+        correct: 0
+      },
+      {
+        q: "What is a subnet mask?",
+        options: ["Network segment identifier", "Router configuration", "Encryption key", "Firewall setting"],
+        correct: 0
+      },
+      {
+        q: "What is a router?",
+        options: ["Network device for routing packets", "Firewall", "Data storage", "Encryption device"],
+        correct: 0
+      },
+      {
+        q: "What is FTP?",
+        options: ["File Transfer Protocol", "Firewall Protocol", "Data compression tool", "Database system"],
+        correct: 0
+      },
+      {
+        q: "What is latency in networking?",
+        options: ["Delay in transmission", "Data corruption", "Packet loss", "Bandwidth usage"],
+        correct: 0
+      },
+      {
+        q: "What is NAT?",
+        options: ["Network Address Translation", "Node Access Table", "Network Automation Tool", "Node Allocation Tracker"],
+        correct: 0
+      },
+      {
+        q: "What is ARP?",
+        options: ["Address Resolution Protocol", "Access Routing Protocol", "Authentication Request Protocol", "Application Routing Protocol"],
+        correct: 0
+      },
+      {
+        q: "What is packet switching?",
+        options: ["Data transmission in packets", "Data backup", "Data encryption", "Firewall setup"],
+        correct: 0
+      },
+      {
+        q: "What is an Ethernet?",
+        options: ["Wired networking technology", "Wireless protocol", "File format", "Firewall mechanism"],
+        correct: 0
+      }
+    ]
+    ,
+    'Cloud Computing': [
+      {
+        q: "What is IaaS?",
+        options: ["Infrastructure as a Service", "Information as a Service", "Internet as a Service", "Index as a Service"],
+        correct: 0
+      },
+      {
+        q: "What is PaaS?",
+        options: ["Platform as a Service", "Protocol as a Service", "Programming as a Service", "Process as a Service"],
+        correct: 0
+      },
+      {
+        q: "What is scalability in cloud computing?",
+        options: ["Increasing resources as needed", "Reducing latency", "Data encryption", "Network optimization"],
+        correct: 0
+      },
+      {
+        q: "What is an example of SaaS?",
+        options: ["Google Drive", "Router", "Operating System", "Firewall"],
+        correct: 0
+      },
+      {
+        q: "What is a cloud region?",
+        options: ["Geographical location for cloud services", "Network backup", "Firewall location", "Router address"],
+        correct: 0
+      },
+      {
+        q: "What is multi-tenancy in cloud?",
+        options: ["Multiple users sharing resources", "Single user environment", "Data duplication", "Encryption method"],
+        correct: 0
+      },
+      {
+        q: "What is a private cloud?",
+        options: ["Dedicated cloud for a single organization", "Public cloud for all users", "Hybrid environment", "Cloud backup"],
+        correct: 0
+      },
+      {
+        q: "What is serverless computing?",
+        options: ["Execution without managing servers", "Offline computing", "Dedicated server", "Network computing"],
+        correct: 0
+      },
+      {
+        q: "What is disaster recovery in cloud?",
+        options: ["Recovering data during failures", "Data backup", "Encryption recovery", "Latency reduction"],
+        correct: 0
+      },
+      {
+        q: "What is Kubernetes used for?",
+        options: ["Container orchestration", "Database management", "Cloud backup", "Network routing"],
+        correct: 0
+      }
+    ]
+    
   };
 
   const [subject, setSubject] = useState('');
