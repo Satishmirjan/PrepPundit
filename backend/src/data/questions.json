@@ -1,0 +1,285 @@
+{
+  "flow-diagram.jpg":[
+    {
+        "question": "What is the first phase in the SDLC process?",
+        "options": ["Planning", "Defining", "Designing", "Testing"],
+        "answer": "Planning"
+    },
+    {
+        "question": "What does the 'Defining' phase involve?",
+        "options": ["Identifying requirements", "Testing code", "Deploying the system", "Planning tasks"],
+        "answer": "Identifying requirements"
+    },
+    {
+        "question": "Which phase involves creating the structure and blueprint of the software?",
+        "options": ["Defining", "Planning", "Designing", "Building"],
+        "answer": "Designing"
+    },
+    {
+        "question": "In which phase is the software code written?",
+        "options": ["Planning", "Designing", "Building", "Deployment"],
+        "answer": "Building"
+    },
+    {
+        "question": "What is the primary goal of the Testing phase?",
+        "options": ["Fixing bugs", "Validating requirements", "Deploying software", "Designing workflows"],
+        "answer": "Fixing bugs"
+    },
+    {
+        "question": "Which phase involves delivering the software to the end-users?",
+        "options": ["Testing", "Deployment", "Planning", "Building"],
+        "answer": "Deployment"
+    },
+    {
+        "question": "What is the final phase in the SDLC process?",
+        "options": ["Deployment", "Testing", "Designing", "Building"],
+        "answer": "Deployment"
+    },
+    {
+        "question": "What phase comes after Planning in the SDLC cycle?",
+        "options": ["Building", "Defining", "Testing", "Deployment"],
+        "answer": "Defining"
+    },
+    {
+        "question": "Which phase ensures the software meets all the required functionalities?",
+        "options": ["Defining", "Testing", "Designing", "Deployment"],
+        "answer": "Testing"
+    },
+    {
+        "question": "What is the purpose of the Planning phase in SDLC?",
+        "options": ["Creating a roadmap", "Writing code", "Deploying software", "Testing functionality"],
+        "answer": "Creating a roadmap"
+    }
+]
+,
+
+  "bases.png":[
+    {
+        "question": "What is the starting point in this process flow?",
+        "options": ["Order", "Customer", "Employee", "Shipment"],
+        "answer": "Customer"
+    },
+    {
+        "question": "After the customer, which step occurs next in the process?",
+        "options": ["Order", "Employee", "Database", "Shipment"],
+        "answer": "Order"
+    },
+    {
+        "question": "What is the main purpose of the 'Order' step in the flow diagram?",
+        "options": ["Place a request", "Manage employees", "Store shipment data", "Track customers"],
+        "answer": "Place a request"
+    },
+    {
+        "question": "Which entity interacts with the database after the order is placed?",
+        "options": ["Customer", "Employee", "Shipment", "Order"],
+        "answer": "Employee"
+    },
+    {
+        "question": "What happens immediately after the 'Employee' step in the flow?",
+        "options": ["Customer interaction", "Order placement", "Database update", "Shipment preparation"],
+        "answer": "Shipment preparation"
+    },
+    {
+        "question": "What role does the 'Database' play in the process?",
+        "options": [
+            "Storing and managing order details",
+            "Connecting customers and employees",
+            "Managing shipment logistics",
+            "Tracking employee data"
+        ],
+        "answer": "Storing and managing order details"
+    },
+    {
+        "question": "Which step comes before the final shipment?",
+        "options": ["Database", "Order", "Customer", "Employee"],
+        "answer": "Database"
+    },
+    {
+        "question": "Which entity receives the final shipment?",
+        "options": ["Employee", "Database", "Order", "Customer"],
+        "answer": "Customer"
+    },
+    {
+        "question": "What step follows the interaction between the database and the shipment?",
+        "options": ["Customer delivery", "Order processing", "Employee verification", "Database update"],
+        "answer": "Customer delivery"
+    },
+    {
+        "question": "Which step is directly responsible for interacting with the database after the 'Order' step?",
+        "options": ["Employee", "Shipment", "Customer", "Database"],
+        "answer": "Employee"
+    }
+]
+,
+  "oops.jpg": [
+    {
+        "question": "What does 'OOPS' stand for?",
+        "options": [
+            "Object-Oriented Programming System",
+            "Object-Oriented Process System",
+            "Object-Oriented Pattern System",
+            "Object-Oriented Programmatic Structure"
+        ],
+        "answer": "Object-Oriented Programming System"
+    },
+    {
+        "question": "Which OOPS concept focuses on bundling data and methods together?",
+        "options": ["Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+        "answer": "Encapsulation"
+    },
+    {
+        "question": "What does 'Abstraction' in OOPS emphasize?",
+        "options": [
+            "Hiding implementation details",
+            "Reusing code",
+            "Binding data and functions",
+            "Creating multiple forms"
+        ],
+        "answer": "Hiding implementation details"
+    },
+    {
+        "question": "Which concept in OOPS allows one class to acquire the properties of another?",
+        "options": ["Inheritance", "Encapsulation", "Abstraction", "Class"],
+        "answer": "Inheritance"
+    },
+    {
+        "question": "What is the fundamental building block of an Object-Oriented Programming System?",
+        "options": ["Class", "Object", "Encapsulation", "Abstraction"],
+        "answer": "Object"
+    },
+    {
+        "question": "Which OOPS concept allows a method or function to have different forms?",
+        "options": ["Polymorphism", "Encapsulation", "Class", "Inheritance"],
+        "answer": "Polymorphism"
+    },
+    {
+        "question": "What does a 'Class' represent in OOPS?",
+        "options": [
+            "Blueprint for objects",
+            "Specific instance of data",
+            "Hiding details",
+            "Multiple forms of functions"
+        ],
+        "answer": "Blueprint for objects"
+    },
+    {
+        "question": "Which OOPS concept ensures secure access to object properties?",
+        "options": ["Encapsulation", "Abstraction", "Object", "Inheritance"],
+        "answer": "Encapsulation"
+    },
+    {
+        "question": "What is an instance of a 'Class' called?",
+        "options": ["Object", "Method", "Inheritance", "Polymorphism"],
+        "answer": "Object"
+    },
+    {
+        "question": "Which OOPS concept is used to create a hierarchy of classes?",
+        "options": ["Inheritance", "Class", "Encapsulation", "Polymorphism"],
+        "answer": "Inheritance"
+    }
+]
+,
+  "Introduction-of-OS-660.webp": [
+    {
+        "question": "What is the primary purpose of the Operating System in this diagram?",
+        "options": [
+            "To interact with hardware",
+            "To compile programs",
+            "To edit text",
+            "To store user data"
+        ],
+        "answer": "To interact with hardware"
+    },
+    {
+        "question": "Which layer is directly above the Operating System in the diagram?",
+        "options": [
+            "System and Application Programs",
+            "Computer Hardware",
+            "Users",
+            "Database System"
+        ],
+        "answer": "System and Application Programs"
+    },
+    {
+        "question": "Which component is located at the lowest level of this architecture?",
+        "options": [
+            "System and Application Programs",
+            "Operating System",
+            "Users",
+            "Computer Hardware"
+        ],
+        "answer": "Computer Hardware"
+    },
+    {
+        "question": "What is one of the roles of 'System and Application Programs' as shown in the diagram?",
+        "options": [
+            "To directly manage the hardware",
+            "To provide tools like compilers and text editors",
+            "To facilitate user login",
+            "To handle memory allocation"
+        ],
+        "answer": "To provide tools like compilers and text editors"
+    },
+    {
+        "question": "Which of the following is an example of a system program mentioned in the diagram?",
+        "options": [
+            "Assembler",
+            "Operating System",
+            "User Interface",
+            "Computer Hardware"
+        ],
+        "answer": "Assembler"
+    },
+    {
+        "question": "How many user levels are represented in the diagram?",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "Multiple (User 1 to User n)"
+        ],
+        "answer": "Multiple (User 1 to User n)"
+    },
+    {
+        "question": "What role does the 'Database System' play in this architecture?",
+        "options": [
+            "To manage data storage and retrieval",
+            "To execute assembly code",
+            "To interact directly with the hardware",
+            "To act as an operating system"
+        ],
+        "answer": "To manage data storage and retrieval"
+    },
+    {
+        "question": "What layer serves as the intermediary between users and hardware?",
+        "options": [
+            "System and Application Programs",
+            "Operating System",
+            "Database System",
+            "Compiler"
+        ],
+        "answer": "Operating System"
+    },
+    {
+        "question": "Which system program mentioned in the diagram is responsible for converting high-level code into machine code?",
+        "options": [
+            "Compiler",
+            "Text Editor",
+            "Assembler",
+            "Database System"
+        ],
+        "answer": "Compiler"
+    },
+    {
+        "question": "What is the main interaction point for the users in this architecture?",
+        "options": [
+            "System and Application Programs",
+            "Operating System",
+            "Computer Hardware",
+            "Database System"
+        ],
+        "answer": "System and Application Programs"
+    }
+]
+
+}
